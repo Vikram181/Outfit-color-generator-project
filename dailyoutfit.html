@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Combination Generator</title>
+    <link rel="stylesheet" href="daily-outfit.css">
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@500&display=swap"
+    />
+
+
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+      <div class="navBar">
+          <div class="logo">
+              <img src="./public/default-a-sharply-skilled-graphic-artist-has-crafted-a-stunnin-1-1-2@2x.png" alt="Logo" />
+          </div>
+          <nav>
+            <ul>
+                <!-- Main Navigation Links -->
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="dailyoutfit.html">DAILY OUTFIT</a></li>
+                <li><a href="wardrom.html">MY WARDROBE</a></li>
+                <li><a href="trending.html">TRENDING</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                
+                <!-- Profile Section -->
+                <li class="upgrade-options-child">
+                    <div class="account-wrapper">
+                        <a href="#" class="my-profile">MY PROFILE</a>
+                    </div>
+                </li>
+        
+                <!-- Cart Section with Only Cart Icon -->
+                <li class="upgrade-options-child">
+                    <div class="cart">
+                        <img
+                            class="system-icon24pxcart"
+                            alt="Cart Icon"
+                            src="./public/system-icon24pxcart.svg"
+                        />
+                    </div>
+                </li>
+            </ul>
+        </nav>
+      </div>
+      
+
+
+
+    </header>
+
+    <!-- Main Content -->
+
+
+    <div class="color-selection">
+        <h2>SELECT SHIRT COLOUR</h2>
+        <div id="shirtPalette" class="palette">
+            <!-- Shirt Palette will be generated here -->
+        </div>
+
+        <h2>SELECT PANT COLOUR</h2>
+        <div id="pantPalette" class="palette">
+            <!-- Pant Palette will be generated here -->
+        </div>
+    </div>
+
+    <div class="color-display">
+        <div id="shirtColorDisplay" class="color-box">Shirt Color</div>
+        <div id="pantColorDisplay" class="color-box">Pant Color</div>
+    </div>
+
+    <button id="generateBtn">Generate Next Combination</button>
+
+
+ 
+
+    <script src="scripty.js"></script>
+</body>
+</html>
