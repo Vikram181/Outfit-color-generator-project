@@ -3,7 +3,7 @@ const shirtColors = ['White', 'Black', '#000435', 'Gray', 'Red', 'Green', 'Pink'
     '#3EB489', 'Coral', 'Khaki', 'Magenta', '#87CEEB', '#36454F', '#FFE5B4'];
 
 const pantColorsMapping = {
-    'White': ['Black', '#964B00', 'Gray','#000435', '#87CEEB'],
+    'White': ['Black', '#aedb9f', 'Gray','#000435', '#87CEEB'],
     'Black': ['Gray', 'Black', '#000435','White','#F5F5DC'],
     '#000435': ['Gray', 'Black', 'White','#CDB38A'],
     'Gray': ['Black', 'White', '#000435'],
